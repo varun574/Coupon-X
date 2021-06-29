@@ -1,0 +1,45 @@
+  a{
+     padding:10px;
+     
+}
+.myclass{
+  position: relative;
+}
+.myclass1{
+  position: absolute;
+  background-color: red;
+}
+.container  .cardreplacer{
+  padding:10px;
+}
+.user1{
+  float: left;
+}
+h2{
+  padding:20px;
+  color:slateblue;
+  size: 50px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #0066ff;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #0066ff;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shopping</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+<link href="styles.css" type="text/css" rel="stylesheet">
+
+</head>
+<body >
+  
+
+
+
+   <div class="navbar navbar-expand-sm bg-dark navbar-dark" class="navigation1"  >
+       <a class="navbar-brand justify-content-center"  href="index.html">
+           <img src="https://i.pinimg.com/originals/47/37/80/4737802e606c2621bcd6778732efbc6d.png" alt="Logo" style="width:60px;">    Coupon-X
+       </a>
+
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navigator">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Navigator">
+    <ul class="navbar-nav">
+        <li class="navbar-item active ">
+            <a class="navbar-link  text-light " href="index.html">Home</a>
+        </li>
+        <li class="navbar-item">
+            <a class="navbar-link  text-light " href="catalog.html">Catalog</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link  text-light " href="coupons.html">Coupons</a>
+        </li>
+    </ul>
+    <form class="form-inline ml-auto" action="/action_page.php" style="margin-right: 200px;">
+      <input class="form-control " type="text" placeholder="Search" style="width: 400px;">
+      <button type="button" class="btn" style="background-color: #ffcc00;">
+        <span class="glyphicon glyphicon-search">🔍Search</span> 
+      </button>
+    </form>
+    <a class="navbar-link  text-light" href="cart1.html" style="margin-right: 20px; font-size: large;">🛒Cart</a>
+    <a class="navbar-link " href="login.html" style="background-color: white;
+    color: #0066ff;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;"><b>Login</b></a>
+  </div>
+  </div>
+  <br><br>
+  <form>
+      <div class="form-group">
+          <label for="NAME">Enter Name:</label>
+          <input type="text" id="NAME" name="NAME">
+      </div>
+      <div class="form-group">
+        <label for="JOB">Enter Job:</label>
+        <input type="text" id="JOB" name="JOB">
+    </div>
+    <div class="form-group">
+      <label for="SALARY">Enter Salary:</label>
+      <input type="text" id="SALARY" name="SALARY">
+  </div>
+  <button type="button" id="post_btn" value="POST" class="btn btn-success">POST</button>
+  </form>
+
+  
+
+</body>
+
+
+
+
+</html>
